@@ -9,9 +9,9 @@ const app = express();
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
-const botToken = '7585046746:AAGkXE0hIxz6eIXYz7136EhW6MFk9e3NHmY';
-const mongoUri = 'mongodb+srv://toshidev0:zcode22107@dbtxt.3dxoaud.mongodb.net/?retryWrites=true&w=majority&appName=DBTXT';
-const adminChatIds = ['7810011711'];
+const botToken = '8106324179:AAGjzWU2Kn4uDTHXNabNRGWw6xt-3xoWjA0';
+const mongoUri = 'mongodb+srv://detorresmarc08:mySecurePass123@cluster0.kjxi0lc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const adminChatIds = ['7510486838']; 
 
 const bot = new TelegramBot(botToken, { polling: true });
 const file = JSON.parse(fs.readFileSync("eytokens.json", "utf-8"));
